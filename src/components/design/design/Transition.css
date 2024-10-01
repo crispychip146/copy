@@ -1,0 +1,36 @@
+/* Basic container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style for the text boxes */
+  .textbox {
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px;
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+  }
+  
+  /* Initial state - hidden on the right */
+  .from-right {
+    transform: translateX(100%);
+  }
+  
+  /* Initial state - hidden on the left */
+  .from-left {
+    transform: translateX(-100%);
+  }
+  
+  /* Visible state - transitions to normal position */
+  .visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  

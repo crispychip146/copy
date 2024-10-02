@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.2",
+    "framer-motion": "^11.9.0",
     "lock": "^1.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-just-parallax": "^3.1.16",
+    "react-material-ui-carousel": "^3.4.2",
     "react-router-dom": "^6.26.1",
     "scroll": "^3.0.1"
   },

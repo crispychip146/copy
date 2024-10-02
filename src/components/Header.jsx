@@ -1,6 +1,5 @@
 
 import { brainwave, discordBlack } from "../assets";
-//ekhane scroll lock import korte hobe but hoy error dekhay tai change korlam scroll-lock theke enableScroll. disableScroll import korechi
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
 

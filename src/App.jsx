@@ -1,6 +1,7 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Benefits from "./components/Benefits";
 import Button from "./components/Button";
+import { Route,Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 const App = () => {
